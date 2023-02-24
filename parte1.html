@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blog Personal - Parte 1</title>
+</head>
+<body>
+	<center>
+		<div class=cajaCentral>
+			<h1>Parte 1. Primeros pasos.</h1>
+				<div class="contenedor">
+					<div class="cajaTexto">
+						<p>Un cualquier día de enero del año 2009 entro yo a jardín, en un colegio llamado “Franciscano Giménez de Cisneros”. Allí es donde haría mis primeros pasos hacia un desarrollo de conocimientos básicos que serán la base del aprendizaje general. </p>
+					</div>
+					<div class="cajaFoto">
+						<img class="foto" src="foto2.jpeg">
+					</div>
+				</div>
+				<p>En primaria cambian los contenidos temáticos que se enseñan a las personas, pasa uno de aprender a hablar, escribir y leer, a aprender como funciona el mundo. Se ven más como conceptos básicos matemáticos, fenómenos biológicos y ese tipo de cosas. En tercer grado cambie de este colegio a otro que sería el colegio en el que más tiempo estuve, mas cosas se aprendieron, mas momentos se vivieron; ese colegio se llama “Gimnasio Los Robles”. La razón de esto fue debido a que mis padres siempre buscaban lo mejor en educación para mí. Conocí nuevas personas, hice nuevos amigos que, hasta el día de hoy, siguen siendo parte de mi vida. Lo que aprendía seguía siendo evoluciones de lo anterior (conceptos matemáticos, fenómenos, ciencias sociales, etc.), cosa que iba a cambiar pronto, en una época mucho mas complicada y llena de cambios inesperados.</p>
+				<br>
+				<div class="contenedor2">
+					<div class="cajaBoton">
+						<a href="index.html">Regresar a Inicio</a>
+					</div>
+					<div class="cajaBoton">
+						<a href="parte2.html">Avanzar a parte 2</a>
+					</div>
+				</div>
+		</div>
+	</center>
+
+	<style type="text/css">
+		body{
+			background-image: url(fondo1.jpg);
+			background-repeat: repeat;
+			background-size: cover;
+		}
+
+		h1{
+			color: rgba(0, 0, 0, 1.0);
+			text-align: left;
+			font-family: Helvetica, sans-serif;
+		}
+
+		p{
+			color: rgba(0, 0, 0, 1.0);
+			font-size: 20px;
+			text-align: left;
+			font-family: Helvetica, sans-serif;
+		}
+
+		a:link, a:visited {
+			background-color: rgba(254, 127, 74, 1.0);
+			color: white;
+			padding: 14px 25px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-family: Helvetica, sans-serif;
+		}
+
+		a:hover, a:active {
+  			background-color: red;
+		}
+
+		.contenedor{
+			display: grid;
+ 			align-items: center; 
+ 			grid-template-columns: 1fr	 1fr;
+ 			column-gap: 5px;
+		}
+
+		.contenedor2{
+			display: flex;
+ 			align-items: center; 
+		}
+
+		.cajaCentral{
+			background-color: rgba(254, 254, 254, 0.9);
+  			border: 10px ridge rgba(254, 127, 74, 1.0);
+			padding: 50px;
+			margin: 20px 100px 20px 100px;
+		}
+
+		.cajaFoto{
+			text-align: center;
+		}
+
+		.foto{
+			max-width: 100%;
+  			max-height:100%;
+  			width: 220px;
+  			height: 220px;
+ 			overflow: hidden;
+  			border-radius: 20%;
+		}
+
+		.cajaTexto{
+			padding-right: 50px;
+			font-size: 20px;
+			text-align: left;
+		}
+
+		.cajaBoton{
+			padding-right: 50px;
+			text-align: left;
+		}
+
+	</style>
+</body>
+</html>
